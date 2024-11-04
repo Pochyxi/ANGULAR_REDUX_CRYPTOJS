@@ -12,7 +12,7 @@ import { StoreDevtoolsModule } from "@ngrx/store-devtools";
 import { localStorageSync } from "ngrx-store-localstorage";
 import { Post } from './models/Post';
 import { Text } from './models/Text';
-import * as CryptoJS from 'crypto-js'; // Importa la libreria "crypto-js"
+import CryptoJS from 'crypto-js'; // Importa la libreria "crypto-js"
 
 // Definizione dell'interfaccia dello stato dell'applicazione
 export interface IState {
